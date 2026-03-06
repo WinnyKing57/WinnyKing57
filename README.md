@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👑 Bienvenue sur le profil de WinnyKing
+# 👑 Bienvenue sur le profil de WinnyKing 🇫🇷
 
 <img src="https://winnyking.cloud/Images/peronage-ico.webp" width="150" style="border-radius: 50%;" alt="WinnyKing Avatar">
 
@@ -30,8 +30,10 @@
 
 ---
 
-### 📊 Statistiques GitHub
-![Stats de WinnyKing](https://github-readme-stats.vercel.app/api?username=WinnyKing&show_icons=true&theme=transparent&hide_border=true&title_color=646CFF&icon_color=646CFF)
+### 📊 Activité & Langages
+![Top Langages](https://github-readme-stats.vercel.app/api/top-langs/?username=WinnyKing&layout=compact&theme=transparent&hide_border=true&title_color=646CFF&langs_count=6)
+
+![Trophées](https://github-profile-trophy.vercel.app/?username=WinnyKing&theme=onedark&no-frame=true&column=4&margin-top=10)
 
 <br/>
 
