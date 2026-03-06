@@ -30,10 +30,17 @@
 
 ---
 
-### 📊 Activité & Langages
-![Top Langages](https://github-readme-stats.vercel.app/api/top-langs/?username=WinnyKing&layout=compact&theme=transparent&hide_border=true&title_color=646CFF&langs_count=6)
+### 📚 En cours d'apprentissage
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
-![Trophées](https://github-profile-trophy.vercel.app/?username=WinnyKing&theme=onedark&no-frame=true&column=4&margin-top=10)
+---
+
+### 📊 Statistiques & Activité
+![Stats de WinnyKing57](https://github-readme-stats.vercel.app/api?username=WinnyKing57&show_icons=true&theme=transparent&hide_border=true&title_color=646CFF&icon_color=646CFF)
+
+![Top Langages](https://github-readme-stats.vercel.app/api/top-langs/?username=WinnyKing57&layout=compact&theme=transparent&hide_border=true&title_color=646CFF&langs_count=6)
 
 <br/>
 
