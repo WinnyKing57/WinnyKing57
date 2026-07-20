@@ -7,7 +7,7 @@
 ### 🚀 Développeur WEB & Passionné d'automatisation
 
 [![Site Web](https://img.shields.io/badge/Mon_Site_Web-winnyking.cloud-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://winnyking.cloud/)
-[![Portfolio](https://img.shields.io/badge/Mon_Portfolio-Consulter-646CFF?style=for-the-badge&logo=react&logoColor=white)](https://winnyking.cloud/portfolio/index.html)
+[![Portfolio](https://img.shields.io/badge/Mon_Portfolio-Consulter-646CFF?style=for-the-badge&logo=react&logoColor=white)](https://portfolio.winnyking.cloud)
 
 ---
 
