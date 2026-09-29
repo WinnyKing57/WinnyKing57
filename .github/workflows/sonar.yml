@@ -1,0 +1,40 @@
+name: SonarQube
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "**/*.md"
+      - "sonar-project.properties"
+      - ".github/workflows/sonar.yml"
+  pull_request:
+    paths:
+      - "**/*.md"
+      - "sonar-project.properties"
+      - ".github/workflows/sonar.yml"
+  workflow_dispatch:
+
+# Un seul scan a la fois par ref : les pushes suivants annulent le scan en cours.
+concurrency:
+  group: sonar-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  sonarqube:
+    name: SonarQube Scan
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: read
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v5
+        with:
+          # necessaire pour le blame et l'analyse du "new code"
+          fetch-depth: 0
+
+      - name: SonarQube Scan
+        uses: SonarSource/sonarqube-scan-action@v8
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
