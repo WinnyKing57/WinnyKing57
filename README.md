@@ -56,6 +56,12 @@ distant, sécurité Linux et scripts de maintenance.
 
 ## 📌 Projets clés
 
+### 🎬 [CinéStudio](https://github.com/WinnyKing57/cinestudio)
+
+Application React de découverte de films inspirée de Netflix : catalogue, recherche,
+fiches détaillées et thème sombre, avec une API Express (JSON local ou TMDB).
+`React` · `Node.js` · `Vite` · *Projet d'école DWWM*
+
 ### 🎓 [DevWebBooks](https://github.com/WinnyKing57/DevWebBooks)
 
 Collection de 21 livres pédagogiques sur le développement web, le DevOps, la sécurité et
@@ -68,27 +74,22 @@ Système de verrouillage et de sécurité automatique du bureau sous Linux, 100 
 (détection webcam, présence Bluetooth, PAM).
 `Python` · `Linux PAM` · `Sécurité`
 
-### 📊 Debian Storage Analyzer
-
-Outil d'analyse et de nettoyage du stockage sous Debian : identification des gros
-répertoires, purge des caches APT, anciens noyaux et journaux système.
-`Bash` · `Linux Admin`
-
-> Projet privé — présentation sur demande.
-
-### 🐕 CaniPro
-
-Application web de gestion pour club canin : authentification, suivi des cours,
-registres et tableau de bord.
-`PHP` · `React` · `REST API`
-
-> Projet privé — présentation sur demande.
-
 ### ⚙️ [cli-starter](https://github.com/WinnyKing57/cli-starter)
 
 Outil CLI Node.js permettant de générer rapidement des structures de projets
 (HTML, PHP, React, Vue, Docker).
 `Node.js` · `CLI`
+
+### 🔐 Projets privés
+
+- **📊 Debian Storage Analyzer** — analyse et nettoyage du stockage sous Debian :
+  identification des gros répertoires, purge des caches APT, anciens noyaux et journaux.
+  `Bash` · `Linux Admin`
+- **🐕 CaniPro** — application web de gestion pour club canin : authentification,
+  suivi des cours, registres et tableau de bord.
+  `PHP` · `React` · `REST API`
+
+> Ces projets sont privés — présentation sur demande.
 
 D'autres projets publics sont disponibles sur
 [mon GitHub](https://github.com/WinnyKing57?tab=repositories).
