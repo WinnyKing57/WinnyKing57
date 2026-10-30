@@ -1,46 +1,65 @@
 <div align="center">
 
-# 👑 Bienvenue sur le profil de WinnyKing 🇫🇷
+<img src="./assets/avatar.webp" width="120" height="120" alt="Portrait de WinnyKing">
 
-<img src="https://winnyking.cloud/Images/peronage-ico.webp" width="150" style="border-radius: 50%;" alt="WinnyKing Avatar">
+# WinnyKing
 
-### 🚀 Développeur WEB & Passionné d'automatisation
+<p><strong>Développeur web · Full-stack · TSSR</strong></p>
 
-[![Site Web](https://img.shields.io/badge/Mon_Site_Web-winnyking.cloud-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://winnyking.cloud/)
-[![Portfolio](https://img.shields.io/badge/Mon_Portfolio-Consulter-646CFF?style=for-the-badge&logo=react&logoColor=white)](https://portfolio.winnyking.cloud)
+<p>Sites web, backends et automatisation — avec une sensibilité systèmes & réseaux.</p>
 
----
+![Disponible](https://img.shields.io/badge/Disponible-alternance-2ea44f?style=for-the-badge)
 
-### 🛠️ Mon Stack Technique
-
-#### 🌐 Développement Web & Design
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-
-#### 🤖 Automatisation & Backend
-![n8n](https://img.shields.io/badge/n8n-FF6D5A?style=for-the-badge&logo=n8n&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-
----
-
-### 📚 En cours d'apprentissage
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-
----
-
-### 📊 Statistiques & Activité
-![Stats de WinnyKing57](https://github-readme-stats.vercel.app/api?username=WinnyKing57&show_icons=true&theme=transparent&hide_border=true&title_color=646CFF&icon_color=646CFF)
-
-![Top Langages](https://github-readme-stats.vercel.app/api/top-langs/?username=WinnyKing57&layout=compact&theme=transparent&hide_border=true&title_color=646CFF&langs_count=6)
-
-<br/>
-
-[📩 Me contacter](mailto:winnyking.site@gmail.com) | [💼 LinkedIn](https://www.linkedin.com/in/winnyking)
+<p>
+  <a href="https://portfolio.winnyking.cloud">Portfolio</a> ·
+  <a href="https://winnyking.cloud">Site</a> ·
+  <a href="https://www.linkedin.com/in/winnyking">LinkedIn</a> ·
+  <a href="mailto:winnyking.site@gmail.com">Email</a>
+</p>
 
 </div>
+
+## À propos
+
+Développeur web et full-stack avec un profil **TSSR** (Technicien Supérieur Systèmes et Réseaux).
+Je construis des sites rapides, des backends PHP/Python et des automatisations n8n, en gardant
+une attention particulière à la simplicité, à la sécurité et à la documentation.
+
+## Ce que je recherche
+
+- **Contrat** : alternance
+- **Postes** : développeur web · full-stack · TSSR
+- **Statut** : disponible
+
+## Compétences
+
+- **Web** : HTML, CSS, JavaScript, Bootstrap, WordPress, Figma
+- **Backend & données** : PHP, Python, PostgreSQL, Supabase
+- **Automatisation** : n8n, workflows, intégrations d'API
+- **Systèmes & réseaux** : Linux, Docker, Git, bases de la sécurité
+- **En cours** : TypeScript
+
+## Projets
+
+### [DevWebBooks](https://github.com/WinnyKing57/DevWebBooks)
+
+Livres pédagogiques sur le développement web : Docker/Coolify, sécurité applicative,
+architecture backend et DevOps.
+
+### [TerminalWarrior](https://github.com/WinnyKing57/TerminalWarrior)
+
+Jeu en ligne de commande pour apprendre Linux et Windows à travers des puzzles de hacking. `Python`
+
+### [Security_linux](https://github.com/WinnyKing57/Security_linux)
+
+Authentification faciale et sécurité pour Linux. `Python`
+
+### [cli-starter](https://github.com/WinnyKing57/cli-starter)
+
+Générateur de boilerplates HTML, PHP et Node.js avec templates personnalisables. `HTML`
+
+## Contact
+
+Une alternance à proposer ou une question ? Écris-moi :
+[winnyking.site@gmail.com](mailto:winnyking.site@gmail.com) ou via
+[mon portfolio](https://portfolio.winnyking.cloud).
