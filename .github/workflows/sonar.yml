@@ -28,7 +28,7 @@ jobs:
       pull-requests: read
     steps:
       - name: Checkout code
-        # actions/checkout v5.1.0 - epingle par SHA (pas de tag mutable)
+        # actions/checkout v7.0.1 - epingle par SHA (pas de tag mutable)
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           # necessaire pour le blame et l'analyse du "new code"
