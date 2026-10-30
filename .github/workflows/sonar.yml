@@ -7,12 +7,9 @@ on:
       - "**/*.md"
       - "sonar-project.properties"
       - ".github/workflows/sonar.yml"
-  pull_request:
-    paths:
-      - "**/*.md"
-      - "sonar-project.properties"
-      - ".github/workflows/sonar.yml"
-  workflow_dispatch:
+
+# Aucun droit par defaut : chaque job declare uniquement ce dont il a besoin.
+permissions: {}
 
 # Un seul scan a la fois par ref : les pushes suivants annulent le scan en cours.
 concurrency:
@@ -23,18 +20,25 @@ jobs:
   sonarqube:
     name: SonarQube Scan
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    # Les secrets de cet environnement sont limites a la branche main.
+    environment: sonar
     permissions:
       contents: read
       pull-requests: read
     steps:
       - name: Checkout code
-        uses: actions/checkout@v5
+        # actions/checkout v5.1.0 - epingle par SHA (pas de tag mutable)
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
         with:
           # necessaire pour le blame et l'analyse du "new code"
           fetch-depth: 0
+          # ne laisse pas le GITHUB_TOKEN dans la config git du runner
+          persist-credentials: false
 
       - name: SonarQube Scan
-        uses: SonarSource/sonarqube-scan-action@v8
+        # SonarSource/sonarqube-scan-action v8.4.0 - epingle par SHA
+        uses: SonarSource/sonarqube-scan-action@4d1dc0c91ee400dcf8a6dddf2f705ac36542e304
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
